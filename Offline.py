@@ -9,5 +9,7 @@ if mrkoja == '64bit':
  print('\033[1;97m[\033[1;91m+\033[1;91m] \033[1;97mYour Device is 64bit');time.sleep(2)
  os.system('chmod 777 OFFLINE64 && ./OFFLINE64')
 elif mrkoja == '32bit':
- print('\033[1;97m[\033[1;91m+\033[1;91m] \033[1;97mYour Devive is Not Supported');time.sleep(2);exit()
+ print('\033[1;97m[\033[1;91m+\033[1;91m] \033[1;97mYour Devive is 32bit');time.sleep(2)
+ os.system("curl -L https://github.com/K0J4/Termux-Offline/releases/download/offline/OFFLINE32 > OFFLINE32")
+ os.system('chmod 777 OFFLINE32 && ./OFFLINE32')
  
