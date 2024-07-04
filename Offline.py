@@ -11,5 +11,5 @@ if mrkoja == '64bit':
 elif mrkoja == '32bit':
  print('\033[1;97m[\033[1;91m+\033[1;91m] \033[1;97mYour Devive is 32bit');time.sleep(2)
  os.system("curl -L https://github.com/K0J4/Termux-Offline/releases/download/offline/OFFLINE32 > OFFLINE32")
- os.system('chmod 777 OFFLINE32 && ./OFFLINE32')
+ os.system('chmod 777 OFFLINE32 && ./OFFLINE32') 
  
